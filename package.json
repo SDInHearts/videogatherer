@@ -1,6 +1,7 @@
 {
   "type": "module",
   "scripts": {
+    "prebuild": "npm install --save-dev @types/browser-env",
     "build": "tsc",
     "start": "node dist/main.js",
     "keys": "node dist/getkeys.js",
